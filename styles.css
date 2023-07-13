@@ -1,0 +1,82 @@
+body {
+  background-color: green;
+  margin: 40px;
+}
+
+header {
+  width: 100%;
+}
+
+.cabecera {
+  display: flex;
+  background-color: yellow;
+  color: black;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  font-weight: bold;
+  font-size: 10em;
+  color: #08bae3;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#botones {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+button {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(80, 165, 217);
+  color: white;
+  border: none;
+  border-radius: 3%;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  margin-top: 20px;
+}
+
+.contenedor div {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+div h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  background-color: yellow;
+  color: black;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+}
