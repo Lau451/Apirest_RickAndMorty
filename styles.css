@@ -28,11 +28,11 @@ main {
 #busqueda {
   display: flex;
   justify-content: center;
-  width: 700px;
+  width: 800px;
+  align-items: space-between;
 }
 .botones {
-  width: 300px;
-  padding-right: 0px;
+  width: 350px;
   display: flex;
   justify-content: space-around;
 }
@@ -56,6 +56,7 @@ button {
   color: white;
   border: none;
   border-radius: 3%;
+  font-size: 20px;
 }
 
 .contenedor {
