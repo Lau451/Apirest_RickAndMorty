@@ -10,6 +10,7 @@ todos.addEventListener("click", function () {
           alt="personaje"
         />
         <h2>${personaje.name}</h2>
+        <h2>${personaje.status}</h2>
       </div>
     `);
       var contenedor = document.querySelector(".contenedor");
